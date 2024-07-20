@@ -3,3 +3,79 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+
+.main_header {
+	background-color: #fff;
+	height: 100%;
+}
+
+.navbar .navbar-brand {
+	font-size: 26px;
+	font-weight: 700;
+	text-transform: capitalize;
+	color: #dc4f72;
+}
+
+.navbar .nav-item .nav-link {
+	transition: all 0.5s ease;
+	padding: 14px 14px;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.search a i {
+	color: #5a5a5a;
+	font-size: 15px;
+	opacity: 0.7;
+	width: 40px;
+	height: 40px;
+	line-height: 38px;
+	background: #f7f9fc;
+	text-align: center;
+	border-radius: 50px;
+	border: 1px solid #eee;
+}
+
+.btn {
+	line-height: 52px;
+	font-weight: 700;
+	font-size: 14px;
+	padding: 0px 30px;
+	color: #dc4f72;
+	border-color: #dc4f72;
+}
+
+.btn:hover {
+	background-color: #dc4f72;
+	cursor: pointer;
+	color: #fff;
+}
+
+.product {
+	margin-top: 40px;
+
+	background: linear-gradient(to right, #ccc, rgba(255, 255, 255, 0.92)),
+		url(../img/banner.jpg);
+
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.row .col-6 h3 {
+	font-size: 50px;
+	line-height: 57.5px;
+	color: #2c3038;
+	font-weight: 700;
+}
+
+.row .col-6 p {
+	font-size: 20px;
+	line-height: 28px;
+	font-weight: 400;
+	max-width: 450px;
+	color: #5a5a5a;
+}
